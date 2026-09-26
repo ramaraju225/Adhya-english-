@@ -1,0 +1,147 @@
+/* GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+/* NAVIGATION BARS */
+.navbar {
+  background-color: #0f172a;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.subnav {
+  background-color: #cbd5e1;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.sub-btn {
+  background-color: #059669;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sub-btn:hover {
+  background-color: #047857;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* CONTENT DISPLAY BOX */
+.content-box {
+  max-width: 850px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  line-height: 1.7;
+}
+
+.content-box h2 {
+  color: #1e293b;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.content-box h3 {
+  color: #0f172a;
+  margin-top: 25px;
+  background: #e2e8f0;
+  padding: 8px 12px;
+  border-left: 5px solid #2563eb;
+  border-radius: 4px;
+}
+
+.content-box ul {
+  padding-left: 20px;
+}
+
+.content-box li {
+  margin-bottom: 8px;
+}
+
+/* TABLES STYLES */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #cbd5e1;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #1e293b;
+  color: white;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
